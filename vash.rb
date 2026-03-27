@@ -1,10 +1,10 @@
 class Vash < Formula
   desc "CLI for managing vas-hosting.cz hosting accounts"
   homepage "https://github.com/CreevekCZ/vas-hosting-cli"
-  url "https://github.com/CreevekCZ/vas-hosting-cli/releases/download/v__VERSION__/vash-v__VERSION__-darwin-arm64.tar.gz"
-  sha256 "__SHA256__"
+  url "https://github.com/CreevekCZ/vas-hosting-cli/releases/download/v1.0.0/vash-v1.0.0-darwin-arm64.tar.gz"
+  sha256 "e935c7641ff1e0c6209d126a8e7fe0c51fb7dddcb34f45cf6fe8920ea593724b"
   license "MIT"
-  version "__VERSION__"
+  version "1.0.0"
 
   def install
     bin.install "vash"
